@@ -6,10 +6,19 @@ use App\Core\Controller;
 
 class Dashboard extends Controller
 {
+	public function __construct()
+	{
+		parent::cekLogin();
+	}
 
 	public function index()
 	{
-		$data['row_index'] = "Ini file app/controllers/Dashboard.php - index()";
-		$this->dashboard('dashboard/index', $data);
+		$this->dashboard('dashboard/index');
+	}
+
+	public function logout()
+	{
+		session_destroy();
+		header('location:' . URL);
 	}
 }

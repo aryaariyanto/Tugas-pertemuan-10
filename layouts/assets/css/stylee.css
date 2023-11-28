@@ -1,0 +1,117 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #970a97;
+  color: #02bfee;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.brand {
+  width: 80px;
+}
+
+.user {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+main {
+  margin-left: 210px;
+}
+
+article {
+  width: 75%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 10px 20px;
+  margin: 5px 0 5px 0;
+  display: block;
+  color: #ee6c02;
+}
+
+nav a:hover {
+  background-color: #338d4a;
+}
+
+nav .icon {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+
+.info {
+  background-color: #02d2ee;
+  color: #ee0235;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+table {
+  margin-top: 20px !important;
+  border: 1px solid #e4d8df;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  border: 1px solid #60ee02;
+  padding: 8px;
+  background-color: #3b9991;
+  color: #1202ee;
+}
+
+table td {
+  border: 1px solid #0aee02;
+  padding: 8px;
+}
+
+.btn {
+  background-color: #0284ee;
+  border-radius: 4px;
+  color: #02cbee;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: #93ee02;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px 0 20px 10px;
+  background-color: #090a0a;
+  width: 100%;
+  border-top: 1px solid #02ee35;
+  color: #389b64;
+}
+
+/* DataTables Custom Style */
+
+div.dataTables_filter,
+div.dataTables_length {
+  padding: 20px 0 10px 0;
+}
